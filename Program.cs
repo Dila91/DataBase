@@ -21,6 +21,7 @@ namespace DataBase
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    //test
                 });
     }
 }
